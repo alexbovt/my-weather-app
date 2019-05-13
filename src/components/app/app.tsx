@@ -1,19 +1,16 @@
 import React, { Component } from "react";
-import Button from "@material-ui/core/Button";
+
+import Header from "../header";
+import Content from "../content";
+
+import './app.css'
 
 export default class App extends Component {
   render() {
     return (
       <div>
-        <Button variant="contained" color="primary">
-          Hello World
-        </Button>
-        <Button variant="contained" color="secondary">
-          Hello World
-        </Button>
-        <Button variant="contained" color="default">
-          Hello World
-        </Button>
+        <Header />
+        <Content />
       </div>
     );
   }
